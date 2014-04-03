@@ -196,7 +196,7 @@ You can use the standard node objects in JSON form.
 Running tests is as simple as:
 
 ```sh
-% rake test
+% rake test && kitchen test
 ```
 
 [Librarian]:https://github.com/applicationsonline/librarian-chef
