@@ -50,11 +50,12 @@ if Chef::Config[:solo]
     Chef::Config[:encrypted_data_bag_secret] = nil
   end
 
-  PARSER_LOADED = false
   if treetop_loadable
     require 'search/overrides'
     require 'search/parser'
     PARSER_LOADED = true
+  else
+    PARSER_LOADED = false
   end
 
   module Search; class Helper; end; end
