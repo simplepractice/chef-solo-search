@@ -30,7 +30,7 @@ if Chef::Config[:solo]
   # Ensure the treetop gem is installed and available
   treetop_loadable = false
   begin
-    gem 'treetop', '=1.5.1'
+    gem 'treetop', '=1.5.3'
     require 'treetop'
     treetop_loadable = true
   rescue LoadError
