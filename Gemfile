@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'chef', '>= 10.4'
 gem 'treetop', '>= 1.5.3'
+gem 'mixlib-shellout', '1.3.0'
 gem 'rake'
 gem 'ruby-wmi'
 gem 'win32-service', :platforms => [:mswin, :mingw]
