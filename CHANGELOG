@@ -2,6 +2,17 @@
 chef-solo-search Changelog
 ==========================
 
+Version 0.5.2, December 4, 2014
+-------------------------------
+## Features
+* Support encrypted databags
+
+## Fixes
+* Extensively cleaned up readme
+* Much better test coverage / added test kitchen
+* Less craziness due to locked down treetop version
+
+
 Version 0.5.1, September 19, 2013
 ---------------------------------
 * Added missing metadata.json file

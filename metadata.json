@@ -16,7 +16,7 @@
   },
   "description": "Data bag search for Chef Solo",
   "name": "chef-solo-search",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "dependencies": {
   },
   "platforms": {
