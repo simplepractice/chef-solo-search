@@ -1,3 +1,10 @@
+## deprecation warning
+
+Now that Local Mode ("Zero") has been introduced to Chef (as of 11.8), which offers search out of the box, this repository is going to get a lot less love. I highly reccomend that you consider migrating from Chef Solo to Chef Zero and drop use of this library. That being said, if you're stuck using Chef Solo, little chef-solo-search will still be there for you.
+
+Here's an article walking through the migration:  
+https://www.chef.io/blog/2014/06/24/from-solo-to-zero-migrating-to-chef-client-local-mode/
+
 # chef-solo-search
 
 [![Build Status](https://travis-ci.org/edelight/chef-solo-search.png?branch=master)](https://travis-ci.org/edelight/chef-solo-search)
