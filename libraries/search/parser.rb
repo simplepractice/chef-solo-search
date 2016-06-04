@@ -99,6 +99,7 @@ module Lucene
 
   class FieldName < Treetop::Runtime::SyntaxNode
     def match( item )
+      item = item.to_hash if Chef::VERSION.to_i >= 12
       if self.text_value.count("_") > 0
         item.merge!(build_flat_hash(item))
       end
